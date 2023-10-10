@@ -1,5 +1,5 @@
 {% set name = "dependente" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dependente-{{ version }}.tar.gz
-  sha256: 463f18c148bd87a9677414f5b2a0256dbdf992ec4db480dd5f0879c7182d5305
+  sha256: 3478cd56ece9b9afbe33c4da132e65305ea0ef474b1a906b2d6d79c934cc2452
 
 build:
   number: 0
